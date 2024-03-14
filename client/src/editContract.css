@@ -1,0 +1,38 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding-left: 20px; /* Add padding to the left */
+  }
+  
+  h2 {
+    margin-top: 20px; /* Add margin to the top of the heading */
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    width: 100%; /* Make the input fields full width */
+    margin-bottom: 10px; /* Add margin at the bottom of each input field */
+  }
+  
+  .search-results-box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .search-results {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .search-result-tile {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  button {
+    margin-top: 10px; /* Add margin at the top of the button */
+  }
