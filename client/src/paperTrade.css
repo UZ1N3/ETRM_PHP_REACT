@@ -1,0 +1,91 @@
+body {
+    /* background-image: url('./assets/pagetradeBG.jpg'); */
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  
+ 
+  .header {
+    text-align: center;
+    
+    
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #1660c1;
+    padding: 5px 0;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    font-family: Serif;
+    padding-left: 20px;
+    color: #ffffff;
+  }
+  
+  .outer-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px; /* Add spacing below the header */
+    padding-bottom: 100px;
+   
+  }
+
+  
+  .form-container {
+    border: 1px solid black; /* Thin black border */
+    padding: 20px;
+    align-content: cen;
+    max-width: 800px;
+    width: 100%;
+    padding-right: 30px;
+  }
+  
+  .heading {
+    margin-top: 0;
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr); /* 3 fields per row */
+    grid-gap: 40px; 
+  }
+  
+  .grid-item input {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .grid-item input[type="text"],
+.grid-item input[type="date"] {
+  width: 100%;
+  height: 30px; 
+}
+  
+  .label {
+    margin-bottom: 5px;
+    margin-right:20px;
+    text-align: center; 
+    
+    
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
